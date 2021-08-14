@@ -42,8 +42,8 @@ yarn global add @vue/cli
 
 ## create our first application 
 
-we create our first application at [projects/mevn-01](projects/mevn-01) with vue 2 
+we create our first application at [projects/mevn-01](projects/mevn-01) with vue 2 although there are no instructions with this one
 
-we develop this at [projects/mevn-02](projects/mevn-02) with vue 3 and typescript so please follow along there in the [README](projects/mevn-02-vue3-template/README.md)
+we develop this at [projects/mevn-02](projects/mevn-02-vue3-template) with vue 3 and typescript so please follow along there in the [README](projects/mevn-02-vue3-template/README.md)
 
 
