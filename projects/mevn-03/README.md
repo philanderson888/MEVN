@@ -24,7 +24,7 @@ in the previous stage we have
 
 ## instalation
 
-let's install the app again from scratch, using the following command
+let's install the app again from scratch, using the following command, following [this tutorial](https://www.positronx.io/vue-mevn-stack-tutorial-build-full-stack-vue-js-crud-app)
 
 ```js
 vue create mevn-03; cd mevn-03; yarn serve
