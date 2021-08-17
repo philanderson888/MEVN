@@ -7,7 +7,7 @@ A repository for learning the MEVN stack
   - [Contents](#contents)
   - [Introduction](#introduction)
   - [installation](#installation)
-  - [create our first application](#create-our-first-application)
+  - [create our first mevn stack application](#create-our-first-mevn-stack-application)
 
 ## Introduction
 
@@ -40,10 +40,17 @@ yarn -v
 yarn global add @vue/cli 
 ```
 
-## create our first application 
+## create our first mevn stack application
 
-we create our first application at [projects/mevn-01](projects/mevn-01) with vue 2 although there are no instructions with this one
+i build this incrementally `mevn-01`, `mevn-02` etc increasing in complexity every time so that at every stage we have a working application
 
-we develop this at [projects/mevn-02](projects/mevn-02-vue3-template) with vue 3 and typescript so please follow along there in the [README](projects/mevn-02-vue3-template/README.md)
+- [mevn-01](projects/mevn-01) raw boiler plate code with vue2 *This version does not do anything so pretty much can be skipped*
+- [mevn-02](projects/mevn-02-vue3-template) add one component file with router
+- [mevn-03](projects/mevn-03) add bootstrap navbar
+- [mevn-04](projects/mevn-04) add axios and further component for adding new records to database.  Develop the application to add the full back end api and the full front end application with CRUD operations - Create, Read, Update and Delete students.
+
+The full application is built and is working at [projects/mevn-04](projects/mevn-04)
+
+Thank you to https://www.positronx.io/ for creating this tutorial!!!!
 
 
