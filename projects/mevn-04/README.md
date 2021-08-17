@@ -20,6 +20,8 @@
 - [add backend api http `routes` file `api\routes\student.route.js`](#add-backend-api-http-routes-file-apiroutesstudentroutejs)
 - [start the database](#start-the-database)
 - [start the back end api](#start-the-back-end-api)
+- [completing the appliction](#completing-the-appliction)
+- [mongoose alternatives](#mongoose-alternatives)
 
 ## introduction
 
@@ -635,6 +637,39 @@ nodemon
 ```
 
 this should now say that the api is running at `http://localhost:4000/api` which can be tested
+
+## completing the appliction
+
+the rest of the application has been completed although not documented here.  If you check out the source code both for back end and front end  you should be able to fit the final pieces of the jigsaw into place and complete all the pices of the puzzle and get everything working.  Any queries let me know!
+
+## mongoose alternatives
+
+just be aware mongoose has several different ways to update one record, all of which can be experimented with
+
+1. findByIdAndUpdate 
+   
+```js
+StudentModel.findByIdAndUpdate(req.params.id,
+    { $set: req.body },
+  (error, data) => {
+```
+
+2. findByOneAndUpdate
+```js
+StudentModel.findOneAndUpdate({_id:req.params.id},
+    { $set: req.body },
+  (error, data) => {
+```
+
+3. updateOne 
+
+This is the recommended way now
+
+```js
+StudentModel.updateOne({_id:req.params.id},
+    { $set: req.body },
+  (error, data) => {
+ ```
 
 
 
