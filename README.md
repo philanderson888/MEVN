@@ -50,8 +50,9 @@ i build this incrementally `mevn-01`, `mevn-02` etc increasing in complexity eve
 - [mevn-03](projects/students/mevn-03) add bootstrap navbar
 - [mevn-04](projects/students/mevn-04) add axios and further component for adding new records to database.  Develop the application to add the full back end api and the full front end application with CRUD operations - Create, Read, Update and Delete students.
 - [mevn-05](projects/students/mevn-05) final version
+- [mevn-06](projects/students/mevn-06) rebuild of [mevn-05](projects/students/mevn-05) and adding online hosting for both the front end application and the back end mongo database (but not the back end api)
 
-The full application is built and is working at [projects/students/mevn-05](projects/students/mevn-05)
+The full application is built and is working at [projects/students/mevn-05](projects/students/mevn-05) and has also been given its own separate github repository for the final deployed version which is at https://github.com/philanderson888/mevn-students-app and deployed at https://mevn-students-app.netlify.app
 
 Thank you to https://www.positronx.io/ for creating this tutorial!!!!
 

@@ -9,6 +9,7 @@ basic app to create a front end and back end and save and display data
 - [mevn-03](students/mevn-03) add bootstrap navbar
 - [mevn-04](students/mevn-04) add axios and further component for adding new records to database.  Develop the application to add the full back end api and the full front end application with CRUD operations - Create, Read, Update and Delete students.
 - [mevn-05](students/mevn-05) final version
+- [mevn-06](students/mevn-06) rebuild of [mevn-05](students/mevn-05) and adding online hosting for both the front end application and the back end mongo database (but not the back end api)
 
 ## login
 
